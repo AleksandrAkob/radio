@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #f1f1f1;
+    background-color: #EFEFEF;
     font-family: "Roboto", sans-serif;
 }
 
@@ -23,8 +23,8 @@ body {
 .title {
     text-align: center;
     font-weight: 900;
-    /* text-transform: uppercase; */
-    
+    text-transform: uppercase;
+
 }
 
 .title__colored {
@@ -32,7 +32,6 @@ body {
     font-size: 41px;
     line-height: 41px;
     margin-bottom: 12px;
-    text-transform: uppercase;
 }
 
 .promo h2:last-of-type {
@@ -45,7 +44,6 @@ body {
     font-size: 80px;
     line-height: 80px;
     margin-bottom: 12px;
-    text-transform: uppercase;
 }
 
 .logo__img {
@@ -82,9 +80,9 @@ body {
     display: block;
     margin: 75px auto 0 auto;
     background: linear-gradient(0deg, #FF4D00 0%, #FEB05D 100%);
-outline: none;
-border: none;
-cursor: pointer;
+    outline: none;
+    border: none;
+    cursor: pointer;
 }
 
 .promo__more-text {
@@ -99,4 +97,80 @@ cursor: pointer;
 .promo__more-img {
     margin: 0 auto 0 auto;
     display: block;
+}
+
+.intensive {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.intensive__title {
+    font-weight: 500;
+    font-size: 30px;
+    color: #252525;
+    margin-bottom: 14px;
+}
+
+.divider {
+    width: 220px;
+    height: 7px;
+    background-color: #F9BF3B;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+.intensive__subtitle {
+    text-align: center;
+    color: #4A4A4A;
+    font-size: 23px;
+    font-weight: 500;
+    margin-bottom: 42px;
+}
+
+.intensive__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.intensive__item {
+    width: 360px;
+}
+
+.intensive__img {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.intensive__text {
+    color: #4A4A4A;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.info {
+    padding-top: 100px;
+    padding-bottom: 20px;
+    background-color: #0f0b0b;
+}
+
+.info__title {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 900;
+    color: #F9BF3B;
+    text-align: right;
+    margin-bottom: 16px;
+}
+
+.info__text {
+    font-weight: 300;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 32px;
+    text-align: right;
+}
+
+.medium {
+    font-weight: 500;
 }
