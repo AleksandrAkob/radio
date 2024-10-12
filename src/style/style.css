@@ -97,6 +97,7 @@ body {
 .promo__more-img {
     margin: 0 auto 0 auto;
     display: block;
+    cursor: pointer;
 }
 
 .intensive {
@@ -150,8 +151,9 @@ body {
 
 .info {
     padding-top: 100px;
-    padding-bottom: 20px;
+    padding-bottom: 140px;
     background-color: #0f0b0b;
+    position: relative;
 }
 
 .info__title {
@@ -161,6 +163,13 @@ body {
     color: #F9BF3B;
     text-align: right;
     margin-bottom: 16px;
+}
+
+.info__img {
+    position: absolute;
+    z-index: 1;
+    top: 191px;
+    left: 307px;
 }
 
 .text__container {
@@ -173,12 +182,16 @@ body {
     font-weight: 300;
     font-size: 16px;
     color: #fff;
-    margin-bottom: 32px;
+    margin-bottom: 25px;
     text-align: right;
+    padding-left: 390px;
+    position: relative;
+    z-index: 2;
 }
 
 .medium {
     font-weight: 500;
+    margin-bottom: 0;
 }
 
 
