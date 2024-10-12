@@ -196,12 +196,12 @@ body {
 }
 
 .skills__wrapper {
- display: flex;
- justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 
 .skills__item {
- width: 224px;
+    width: 224px;
 
 }
 
@@ -226,10 +226,30 @@ body {
 .skills__text {
     width: 224px;
     height: 19px;
-    font-family: Roboto;
     font-size: 16px;
     font-weight: 300;
     line-height: 18.75px;
     text-align: center;
     color: #EFEFEF;
+}
+
+
+.prize {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.prize__img {
+   display: block;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+
+.prize__text {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 45px;
+    text-align: center;
+    color: #252525;
+    margin-bottom: 60px;
 }
