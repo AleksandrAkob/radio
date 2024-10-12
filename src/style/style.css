@@ -163,6 +163,12 @@ body {
     margin-bottom: 16px;
 }
 
+.text__container {
+    width: 750px;
+    display: inline-block;
+    text-align: right;
+}
+
 .info__text {
     font-weight: 300;
     font-size: 16px;
@@ -173,4 +179,57 @@ body {
 
 .medium {
     font-weight: 500;
+}
+
+
+.skills {
+    background: url("../img/Bg.jpg") center center /cover no-repeat;
+    padding-top: 78px;
+    padding-bottom: 102px;
+}
+
+.skills__title {
+    color: #EFEFEF;
+    margin-bottom: 12px;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.skills__wrapper {
+ display: flex;
+ justify-content: space-between;
+}
+
+.skills__item {
+ width: 224px;
+
+}
+
+.skills__circle {
+    width: 115px;
+    height: 115px;
+    background-color: #F9BF3B;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.skills__img {
+    width: 60px;
+    height: 60px;
+}
+
+.skills__text {
+    width: 224px;
+    height: 19px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 18.75px;
+    text-align: center;
+    color: #EFEFEF;
 }
