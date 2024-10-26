@@ -253,7 +253,7 @@ body {
 }
 
 .prize__img {
-   display: block;
+    display: block;
     margin: 0 auto;
     margin-bottom: 80px;
 }
@@ -265,4 +265,53 @@ body {
     text-align: center;
     color: #252525;
     margin-bottom: 60px;
+}
+
+
+.webinar {
+    background-color: #0F0B0B;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.webinar__img {
+    display: block;
+    width: 500px;
+    height: 250px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.webinar__title {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.webinar__subtitle {
+    color: #F9BF3B;
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.webinar__text {
+    color: #fff;
+    font-size: 23px;
+    font-weight: 500;
+    text-align: center;
+}
+
+
+.to__top__button {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 10px;
+    display: none;
 }
