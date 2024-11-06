@@ -8,6 +8,14 @@ const toTopButton = document.querySelector('.to__top__button')
 
 const promo = document.querySelector('.promo')
 
+const btn = document.querySelector('.btn')
+
+const modal = document.querySelector('.modal')
+
+const closeModalButton = document.querySelector('.close')
+
+
+
 
 function onClick(event, targetTeg) {
 	console.log(targetTeg)
@@ -26,8 +34,25 @@ window.addEventListener('scroll', function () {
     }
 })
 
+function openModal() {
+    modal.style.display = 'block'
+}
+
+function closeModal(event) {
+    console.log(event.target)
+    if (event.target === modal || event.target === closeModalButton) {
+modal.style.display = 'none'
+    } 
+    
+}
 
 
 scrollButton.addEventListener('click', (e) => onClick(e, intensive))
 
 toTopButton.addEventListener('click', (e) => onClick(e, promo))
+
+btn.addEventListener('click',openModal)
+
+closeModalButton.addEventListener('click',closeModal)
+
+modal.addEventListener('click', (e) => closeModal(e))
