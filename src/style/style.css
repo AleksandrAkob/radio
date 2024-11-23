@@ -361,6 +361,32 @@ z-index: 10;
 }
 
 
+.ad-banner {
+    position: fixed;
+    background-color: #ec5413;
+    width: 200px;
+    height: 350px;
+    top: 50%;
+    right: 15px;
+    /* margin-top: -175px; */
+    transform: translate(0, -50%);
+    z-index: 3;
+}
+
+.ad-banner__close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 15px;
+    cursor: pointer;
+}
+
+.ad-banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 
 .modal__content {
     margin: 15% auto;
