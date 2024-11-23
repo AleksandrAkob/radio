@@ -10,8 +10,10 @@ body {
 }
 
 .container {
-    width: 1140px;
+    max-width: 1140px;
     margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .promo {
@@ -406,4 +408,20 @@ z-index: 10;
     position: absolute;
     top: 0;
     right: 0;
+}
+
+
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+
+@media (max-width: 1140px) {
+
+    .skills__wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
 }
